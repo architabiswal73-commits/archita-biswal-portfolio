@@ -23,6 +23,15 @@ npm run dev
 npm run build
 ```
 
+## Deploy To Netlify
+
+This project is ready for Netlify with the included `netlify.toml`.
+
+1. Push the repository to GitHub.
+2. In Netlify, create a new site from Git.
+3. Select the repository and use the default settings.
+4. Netlify will run `npm run build` and publish the `dist` folder.
+
 ## Notes
 
 - The contact form is currently a front-end demo and does not submit to a backend.
